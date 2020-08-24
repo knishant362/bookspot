@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment"
+    >
+
+    <ImageView
+        android:id="@+id/imgProfileLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/book_app_icon"
+        />
+
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nishant Kumar"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imgProfileLogo"
+        />
+    <TextView
+        android:id="@+id/txtTitleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/txtProfileName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtFullName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/txtTitleName"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nishant kumar"
+        android:textSize="23sp"
+        android:textColor="@color/myBlack"
+
+
+        />
+
+    <TextView
+        android:id="@+id/txtTitleNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number :"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/txtFullName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/etRegisterNumber"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/txtTitleNumber"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="8572010180"
+        android:textSize="23sp"
+        android:textColor="@color/myBlack"
+        />
+
+    <TextView
+        android:id="@+id/txtTitlePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address :"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/etRegisterNumber"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/etRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/txtTitlePassword"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="knishant362@gmail.com"
+        android:textSize="23sp"
+        android:textColor="@color/myBlack"
+
+        />
+    
+</RelativeLayout>
